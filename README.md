@@ -1,6 +1,5 @@
 # Matrix Multiplication (Multi-Threading)
-
-![Matrix Multiplication](MatMul.png)
+![image](https://user-images.githubusercontent.com/96790595/225356132-8b9697b6-d013-4dfc-928b-8a2c94b47983.png)
 
 ## 1. Objectives
 
@@ -16,11 +15,11 @@ The input to the program is two matrixes A(x*y) and B(y*z) that are read from co
 A parallelized version of matrix multiplication can be done using one of these three methods:
 
 1. A thread computes the output C matrix i.e. without multi-threading. (A thread per matrix).
-![A Thread per row](per_matrix.png)
+![image](https://user-images.githubusercontent.com/96790595/225356250-6c30a0ee-4294-4a5b-94b4-b9bca3cbbad5.png)
 2. A thread computes each row in the output C matrix. (A thread per row).
-![A Thread per row](per_row.png)
+![image](https://user-images.githubusercontent.com/96790595/225356306-5a69d155-0e79-4760-9c28-97a2ed9f49d3.png)
 3. A thread computes each element in the output C matrix. (A thread per element).
-![A Thread per element](per_element.png)
+![image](https://user-images.githubusercontent.com/96790595/225356365-a7d6bcac-f863-4e79-ac44-437e653555c7.png)
 
 ## 3. Requirements
 
